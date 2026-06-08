@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Background circle with gradient effect -->
+    <path
+        android:fillColor="#00D4FF"
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0"/>
+    
+    <!-- Inner circle for depth -->
+    <path
+        android:fillColor="#0066CC"
+        android:pathData="M54,54m-45,0a45,45 0,1 1,90 0a45,45 0,1 1,-90 0"/>
+    
+    <!-- Electric bolt icon (simplified lightning bolt) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,25L45,50H55L48,83L63,58H53L60,25Z"/>
+    
+    <!-- Small energy dots for effect -->
+    <path android:fillColor="#FFFFFF" 
+          android:fillAlpha="0.6"
+          android:pathData="M35,35m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+    <path android:fillColor="#FFFFFF" 
+          android:fillAlpha="0.4"
+          android:pathData="M75,40m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0"/>
+    <path android:fillColor="#FFFFFF" 
+          android:fillAlpha="0.5"
+          android:pathData="M30,70m-1,0a1,1 0,1 1,2 0a1,1 0,1 1,-2 0"/>
+    <path android:fillColor="#FFFFFF" 
+          android:fillAlpha="0.3"
+          android:pathData="M78,75m-1.2,0a1.2,1.2 0,1 1,2.4 0a1.2,1.2 0,1 1,-2.4 0"/>
+</vector>
